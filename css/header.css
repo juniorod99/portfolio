@@ -1,0 +1,30 @@
+.header-bg {
+  background: linear-gradient(90deg, #41cbbf 0%, #0a3342 100%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: #fff;
+  font: 400 1.125rem/1.35 "Space Grotesk", sans-serif;
+}
+.header-menu li a {
+  display: inline-block;
+  padding: 20px 0px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
