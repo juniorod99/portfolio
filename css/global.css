@@ -28,3 +28,10 @@ img {
   display: block;
   border-radius: 4px;
 }
+
+.bg {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
