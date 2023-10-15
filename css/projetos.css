@@ -20,9 +20,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  /* overflow-x: auto; */
 }
 
 .projeto {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   border: 2px solid #7d54de;
   border-radius: 5px;
@@ -35,17 +38,17 @@
 }
 
 .projeto-detalhes {
-  display: flex;
   flex: 1;
+  display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 25px;
-  text-align: center;
 }
 
 .projeto-descricao {
   font-size: 1.5rem;
   color: #bb9eff;
+  text-align: center;
 }
 
 .projeto-texto {
@@ -53,6 +56,7 @@
   color: #ffffff;
   font-size: 1.15rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .projeto-icones {
