@@ -1,30 +1,16 @@
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  breakpoints: {
-    300: {
-      slidesPerView: 1,
-      spaceBetween: 50,
-    },
-    400: {
-      slidesPerView: 1,
-      spaceBetween: 50,
-    },
-    820: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    1300: {
-      slidesPerView: 3,
-      spaceBetween: 20,
-    },
-  },
+const productContainers = [...document.querySelectorAll(".card-container")];
+const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
+const preBtn = [...document.querySelectorAll(".pre-btn")];
+
+productContainers.forEach((item, i) => {
+  let containerDimensions = item.getBoundingClientRect();
+  let containerWidth = containerDimensions.width + 20;
+
+  nxtBtn[i].addEventListener("click", () => {
+    item.scrollLeft += containerWidth;
+  });
+
+  preBtn[i].addEventListener("click", () => {
+    item.scrollLeft -= containerWidth;
+  });
 });

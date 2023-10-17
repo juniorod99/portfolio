@@ -6,3 +6,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.col-2 {
+  grid-column: span 2;
+}

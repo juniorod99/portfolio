@@ -61,6 +61,9 @@
   .sobre-titulo {
     font-size: 3rem;
   }
+  .sobre-texto {
+    font-size: 1.3rem;
+  }
   .sobre-conteudo {
     grid-template-columns: 1fr;
     gap: 40px;
