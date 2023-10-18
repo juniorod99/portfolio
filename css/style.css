@@ -16,11 +16,11 @@
 /* Projetos */
 @import "./projetos.css";
 
-/* Swiper */
-@import "./swiper.css";
-
 /* Experiencia */
 @import "./experiencia.css";
 
 /* Contato */
 @import "./contato.css";
+
+/* Footer */
+@import "./footer.css";
