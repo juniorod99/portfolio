@@ -81,6 +81,7 @@
 
 .form textarea {
   margin-bottom: 5px;
+  resize: vertical;
 }
 
 .form input[type="text"]:focus,
@@ -97,14 +98,15 @@
   padding: 5px 22px;
   font: 400 1rem/1.5 "Space Grotesk", sans-serif;
   color: #ffffff;
-  background: #5e20bd;
+  /* background: #5e20bd; */
+  background: linear-gradient(96deg, #3b05b8 19.56%, #7045d4 92.96%);
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .botao:hover {
-  background: linear-gradient(#5e20bd, #5e42a0);
+  background: linear-gradient(96deg, #3b05b8 19.56%, #8458e9 92.96%);
 }
 
 .botao:hover .button-icon {
