@@ -109,6 +109,7 @@
 
 .projeto-links li img {
   width: 26px;
+  border-radius: 0px;
 }
 
 .swiper-button-prev::after,

@@ -17,3 +17,21 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #7d54de;
+  color: white;
+  padding: 7px 7px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+#back-to-top i {
+  font-size: 2rem;
+}

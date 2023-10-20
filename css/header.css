@@ -10,13 +10,19 @@
 .header-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   color: #fff;
   font: 400 1.125rem/1.35 "Space Grotesk", sans-serif;
 }
 .header-menu li a {
   display: inline-block;
-  padding: 20px 0px;
+  padding: 20px 20px;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+.header-menu li a:hover {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #btn-mobile {
@@ -45,9 +51,10 @@
   }
 
   #nav.active .header-menu {
-    height: 20vh;
+    height: 22vh;
     visibility: visible;
-    background: #6d41d4;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(30px);
     /* overflow-y: auto; */
   }
 
@@ -55,7 +62,13 @@
     display: block;
     padding: 1rem 0;
     margin: 0 1rem;
-    border-bottom: 2px solid #481faa;
+    border-bottom: 2px solid #775db3;
+    margin-bottom: 5px;
+    border-radius: 0px;
+  }
+
+  .header-menu li a:hover {
+    background: none;
   }
   #btn-mobile {
     display: flex;
