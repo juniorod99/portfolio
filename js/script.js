@@ -12,7 +12,4 @@ const swiper = new Swiper(".card-container", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
 });

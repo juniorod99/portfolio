@@ -14,7 +14,6 @@
   font-weight: 700;
   line-height: 1;
   color: #7d54de;
-  margin-bottom: 20px;
 }
 
 .contato-titulo > span {
@@ -133,7 +132,8 @@
     margin-bottom: 20px;
   }
   .contato-lista li img {
-    width: 24px;
+    width: 28px;
+    height: 28px;
   }
 
   .contato-lista li span {
